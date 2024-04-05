@@ -1,4 +1,3 @@
-// 2100016082 Fikri Ariansyah
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -8,16 +7,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text("Layout Row and Column"),),
-        body: Column(
+        appBar: AppBar(
+          title: Text("Layout Row"),
+        ),
+        body: Row(
           children: <Widget>[
-            Text("AKU CINTA APRIL "),
-            Text("SANGAT MENCINTAINYA"),
-            Text("TAPI AKU KECEWA"),
-
+            Text("text 1"),
+            Text("text 2"),
+            Text("text 3"),
           ],
         ),
       ),
     );
   }
-}  
+}
